@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stlye.css">
+</head>
+<body>
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-dark ms-auto">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between  align-items-center ms-auto" href="#">
+                    <img src="./logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+               
+               <div class="navWIdth fs-6 mx-2"  >   
+                 <h4 class="fs-6">weather</h4> 
+                <h6 class="fs-6">tagline goes here
+    
+               </h6> </div>
+                 </a>
+            
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-auto">
+                    <a class="nav-link border border  rounded-end-5 rounded-start-5 border-home border-info" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link brdr" href="#">Link</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link brdr" href="#">news</a>
+                  </li>   
+                   <li class="nav-item mx-2">
+                    <a class="nav-link brdr" href="#">live cameras</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link brdr" href="#">photos</a>
+                  </li>  <li class="nav-item mx-2">
+                    <a class="nav-link brdr" href="#">contact</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </nav>
+
+    <header class="vh-100">
+<section class="py-5 ">
+<div class="container">
+    <div class="inner d-flex mx-auto justify-content-center ">
+<div class="position-relative w-50">
+  <input type="search" class="w-100 form-control py-3 "  id="searchInput"placeholder="find your location">
+  <!--"searchByName(this.value)  -->
+  <button class="btn position-absolute px-5">find</button>
+</div>
+    </div>
+</div>
+</section>
+<section>
+ 
+  <div class="container">
+    <div class="row overflow-auto" id ="rowData">
+    
+     <div class="col-md-4">
+          
+     <div class="card border-dark mb-3 bg-dark" ">
+       <div class="card-header d-flex justify-content-between">
+         <h6>Saturday</h6>
+         <h6>7December</h6>
+       </div>
+       <div class="card-body">
+         <h5 class="card-title">
+           <h2 id="name">london</h2>
+          <h2 id="temp">
+           22.1 C
+          </h2>
+          <div>
+           <i class="fa-solid fa-sun" id="sun"></i>
+          </div>
+         </h5>
+         <p id="mood">sunny</p>
+         <div class="icons d-flex justify-content-between">
+           <div>
+             <i class="fa-solid fa-umbrella">20%</i>
+           </div>
+           <div>
+             <i class="fa-solid fa-wind">18km/h</i>
+           </div>
+     <div>
+       <i class="fa-solid fa-compass">west</i>
+     </div>
+         </div>
+       </div>
+     </div>
+           </div>
+           <div class="col-md-4">
+            
+             <div class="card border-dark mb-3 bg-dark" style=>
+               <div class="card-header">
+                 <p class="text-center ">sunday</p>
+               </div>
+               <div class="card-body text-center">
+                <div  class="d-flex justify-content-center align-items-center">
+                 <i class="fa-solid fa-sun"></i>
+                </div>
+                 <h3 id="temp2">22.8oC</h3>
+                 <h6>14.7</h6>
+                 <p class=" mb-5" id="mood2">sunny</p>
+               </div>
+             </div>
+                   </div>
+      <div class="col-md-4">
+                     <div class="card border-dark mb-3 bg-dark" style>
+                       <div class="card-header">
+                         <p class="text-center">monday</p>
+                       </div>
+                       <div class="card-body text-center">
+                        <div  class="d-flex justify-content-center align-items-center">
+                         <i class="fa-solid fa-sun"></i>
+                        </div>
+                         <h3 id="temp3">23 c</h3>
+                         <h6>13.9o</h6>
+                         <p class=" mb-5"id="mood3">sunny</p>
+                       </div>
+                     </div>
+         </div>`
+    </div>
+  </div>
+</section>
+    </header>
+<footer>
+  <section>
+    <div class="container">
+   <div class="inner py-5">
+    <div class="row" >
+      <div class="col-md-10">
+        <div class="position-relative w-100">
+          <input type="text" class="w-100 form-control py-3 " placeholder="enter your email to subscribe">
+          <button class="btn position-absolute px-5">subscribe</button>
+        </div> 
+      </div>
+   
+<div class="col-md-2">
+  <div class="iconss d-flex justify-content-between">
+    <ul class="d-flex justify-content-between">
+      <li class="face mx-3">
+        <i><i class="fa-brands fa-facebook"></i></i>
+      </li>
+      <li class="twiter mx-3">
+        <i>
+ 
+          <i class="fa-brands fa-twitter"></i></i>
+      </li>
+      <li class=" google mx-3"><i><i class="fa-brands fa-google-plus-g"></i></i></li>
+      <li class="pin mx-3"><i><i class="fa-brands fa-pinterest"></i></i></li>
+    </ul>
+      </div>
+</div>
+   </div>
+  </div>
+  <p class="foot py-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+  </section>
+</footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
